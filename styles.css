@@ -1,0 +1,44 @@
+	body{
+		height: 100%;
+		overflow: hidden;
+		background-color: white;
+		background-image: url('background-image.jpg');
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	  	color: white;
+	}
+	.main-page {
+		text-align: center;
+		position: fixed;
+    	left: 50%;
+    	top: 50%;
+    	transform: translate(-50%, -50%);
+	}
+
+	.main-title {
+		font-family: montserrat, sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		letter-spacing: 0.5px;
+  		font-size: 4em;
+		line-height: 1em;
+	}
+
+	.main-subtitle {
+		font-family: Futura, sans-serif;
+  		font-size: 1.2em;
+		line-height: 0.5sem;
+	}
+
+
+	.button {
+		background-color: Transparent;
+    	background-repeat:no-repeat;
+    	border: none;
+    	cursor:pointer;
+    	overflow: hidden;
+    	outline:none;
+		border-radius: 10px;
+		line-height: normal;
+	}
